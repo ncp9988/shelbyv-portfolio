@@ -1,6 +1,6 @@
 :root {
   --main-color:#182C61;
-  --second-color:#5a8eb8;
+  --second-color:#3b6e97;
   --third-color: #F4DEE9;
 }
 * {
@@ -9,8 +9,7 @@
 }
 
 header {
-  background-color: var(--second-color);
-  /* padding: 10px 15px 20px 25px;  */
+  background-image: url("./assets/my-photo/background.jpeg");
   justify-content: space-between;
   flex-wrap: wrap;
   background-size:cover;
@@ -18,7 +17,6 @@ header {
   padding-bottom: 2%;
   display: flex;
   
-
 }
 header h1 {
   font-weight: bold;
@@ -52,17 +50,22 @@ header nav ul li a {
   font-size: 22px;
 }
 body {
-  background-image: url("./assets/my-photo/background.jpeg");
- 
+  background-color: #98a8d4;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: Roboto,arial,sans-serif;
 
-
 }
 .main-contain {
   padding: 30px 50px;
+}
+
+p{
+  color:rgb(44, 74, 100);
+  font-size: 30px;
+  padding:30px 30px ; 
+  margin: 20px 20px;
 }
 
 h2 {
@@ -78,6 +81,13 @@ h4{
   color: var(--main-color);
   text-align: center;
 
+}
+
+.headerlink{
+  letter-spacing: 2px;
+}
+.active{
+  border-bottom: 2px solid blue;;
 }
 
 #aboutmeintro{
@@ -107,7 +117,7 @@ h4{
   width:70%;
 }
 
-#works, #about-me , #contact-me{
+#works, #about , #contact{
 display:flex;
 margin-top: 3%;
 margin-bottom: 3%;
@@ -136,6 +146,19 @@ padding-top: 3%;
   display:flex;
   max-width:100%;
   flex-wrap: wrap;
+}
+
+#footer{
+  position: fixed;
+  color: #14111a;
+  bottom:0;
+  width: 100%;
+  height: 20vh;
+  background-color: #98a8d4;
+  text-align: center;
+}
+.content{
+  min-height: 90vh;
 }
 
 /* Media Query For Smaller Desktop Screen And Smaller*/

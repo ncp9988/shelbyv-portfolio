@@ -1,15 +1,19 @@
 import React from 'react';
-
+import fanpage from "../../assets/projects/fanpage.jpeg";
+import runbuddy from "../../assets/projects/runbuddy.png";
+import codeRefactor from "../../assets/projects/digital-marketing-meeting.jpg";
+import eatApp from "../../assets/projects/eat.png";
+import vFriend from "../../assets/projects/vFriend.png";
 
 function Project() {
     return (
         <section id="works">
-            <h2>Works</h2>
+            <h2>Projects</h2>
             <section id="portfolio">
                 <div class="container1">
                     <div class="imgcontainer">
                         <a href="https://github.com/ncp9988/myfirstfanpage.git">
-                            <img class="photo" src="../../assets/projects/fanpage.jpeg" alt="Fan Page" /> </a>
+                            <img class="photo" src={fanpage} alt="Fan Page" /> </a>
                     </div>
                     <div class="pic">
                         <h3>First fanpage</h3>
@@ -18,7 +22,7 @@ function Project() {
                 <div class="container1">
                     <div class="imgcontainer">
                         <a href="https://github.com/ncp9988/run-buddy.git">
-                            <img class="photo" src="../../assets/projects/hero-bg.jpg" alt="Run-Buddy" /></a>
+                            <img class="photo" src={runbuddy} alt="Run-Buddy" /></a>
                     </div>
                     <div class="pic">
                         <h3>Run-Buddy</h3>
@@ -27,7 +31,7 @@ function Project() {
                 <div class="container1">
                     <div class="imgcontainer">
                         <a href="https://github.com/ncp9988/coderefactor.git">
-                            <img class="photo" src="../../assets/projects/digital-marketing-meeting.jpg" alt="Code Refactor" />
+                            <img class="photo" src={codeRefactor} alt="Code Refactor" />
                         </a>
                     </div>
                     <div class="pic">
@@ -37,7 +41,7 @@ function Project() {
                 <div class="container1">
                     <div class="imgcontainer">
                         <a href="https://github.com/ncp9988/Eat-Eat-Eat.git">
-                            <img class="photo" src="../../assets/projects/eat.png" alt="Eat-Eat-Eat" />
+                            <img class="photo" src={eatApp} alt="Eat-Eat-Eat" />
                         </a>
                     </div>
                     <div class="pic">
@@ -47,7 +51,7 @@ function Project() {
                 <div class="container1">
                     <div class="imgcontainer">
                         <a href="https://github.com/Arcanaut/Group-Project-2.git">
-                            <img class="photo" src="../../assets/projects/vFriend.png" alt="vFriend" />
+                            <img class="photo" src={vFriend} alt="vFriend" />
                         </a>
                     </div>
                     <div class="pic">

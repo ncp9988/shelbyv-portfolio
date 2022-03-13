@@ -26,7 +26,9 @@ function PortfolioContainer() {
     }
     return(<>
     <Header currentPage={currentPage} handlePageChange={handleCurrentPage}></Header>
+    <main className="content">
     {renderPortfolio(currentPage)}
+    </main>
     </>)
 }
 
