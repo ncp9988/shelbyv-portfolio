@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Header() {
-
+function Header(props) {
+    
     return (
         <header>
             <h2>
@@ -11,23 +11,23 @@ function Header() {
             </h2>
             <nav>
                 <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about">
+                    <li className="mx-2" >
+                        <a href="#about" onClick={()=>{props.handlePageChange("about")}}>
                             About me
                         </a>
                     </li>
-                    <li className="mx-2">
-                        <a href="#portfolio">
-                            Portfolio
+                    <li className="mx-2" >
+                        <a href="#project" onClick={()=>{props.handlePageChange("project")}}>
+                            Project
                         </a>
                     </li>
                     <li className="mx-2">
-                        <a href="#contact">
+                        <a href="#contact" onClick={()=>{props.handlePageChange("contact")}}>
                             Contact
                         </a>
                     </li>
                     <li className="mx-2">
-                        <a href="#resume">
+                        <a href="#resume" onClick={()=>{props.handlePageChange("resume")}}>
                             Resume
                         </a>
                     </li>

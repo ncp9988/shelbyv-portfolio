@@ -52,7 +52,7 @@ header nav ul li a {
   font-size: 22px;
 }
 body {
-  background-image: url("../images/background.jpeg");
+  background-image: url("./assets/my-photo/background.jpeg");
  
   background-size: cover;
   background-position: center;
