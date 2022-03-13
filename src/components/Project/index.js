@@ -4,6 +4,8 @@ import runbuddy from "../../assets/projects/runbuddy.png";
 import codeRefactor from "../../assets/projects/digital-marketing-meeting.jpg";
 import eatApp from "../../assets/projects/eat.png";
 import vFriend from "../../assets/projects/vFriend.png";
+import foodFestival from "../../assets/projects/foodFestival.png";
+import note from "../../assets/projects/backend-note.png"
 
 function Project() {
     return (
@@ -52,6 +54,26 @@ function Project() {
                     <div class="imgcontainer">
                         <a href="https://github.com/Arcanaut/Group-Project-2.git">
                             <img class="photo" src={vFriend} alt="vFriend" />
+                        </a>
+                    </div>
+                    <div class="pic">
+                        <h3>vFriend</h3>
+                    </div>
+                </div>
+                <div class="container1">
+                    <div class="imgcontainer">
+                        <a href="https://github.com/ncp9988/food-festival.git">
+                            <img class="photo" src={foodFestival} alt="food-festival" />
+                        </a>
+                    </div>
+                    <div class="pic">
+                        <h3>vFriend</h3>
+                    </div>
+                </div>
+                <div class="container1">
+                    <div class="imgcontainer">
+                        <a href="https://github.com/ncp9988/backEnd-noteTaker.git">
+                            <img class="photo" src={note} alt="backend-noteTaker" />
                         </a>
                     </div>
                     <div class="pic">
