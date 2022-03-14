@@ -42,7 +42,7 @@ You may also see any lint errors in the console.
 
 
   ### Screenshot
-  ![Screenshot]()
+  ![Screenshot](https://github.com/ncp9988/shelbyv-portfolio/blob/main/src/assets/my-photo/portfolio.png)
   
   
 
