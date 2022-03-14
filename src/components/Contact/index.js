@@ -36,25 +36,29 @@ function ContactForm() {
   return (
     <section>
       <h2 data-testid="h1tag">Contact me</h2>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+      <form id="contact-form" className='mx-5' onSubmit={handleSubmit}>
+
+        <div class="input-group input-group-lg mb-3">
+          <label class="input-group-text" id="inputGroup-sizing-lg" htmlFor="name">Name:</label>
+          <input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+
+        <div class="input-group input-group-lg mb-3">
+          <label class="input-group-text" id="inputGroup-sizing-lg" htmlFor="email">Email address:</label>
+          <input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+
+        <div class="input-group input-group-lg mb-3">
+          <label class="input-group-text" id="inputGroup-sizing-lg" htmlFor="message">Message:</label>
+          <textarea class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
+
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" class="btn btn-dark" type="submit">Submit</button>
       </form>
     </section>
   );
