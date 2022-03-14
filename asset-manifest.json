@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shelbyv-portfolio/static/css/main.e7b2b327.css",
+    "main.js": "/shelbyv-portfolio/static/js/main.aa32864c.js",
+    "static/js/787.95a76ca5.chunk.js": "/shelbyv-portfolio/static/js/787.95a76ca5.chunk.js",
+    "static/media/digital-marketing-meeting.jpg": "/shelbyv-portfolio/static/media/digital-marketing-meeting.fc13ed07cccb206add5e.jpg",
+    "static/media/foodFestival.png": "/shelbyv-portfolio/static/media/foodFestival.137494984df5b7c44c19.png",
+    "static/media/runbuddy.png": "/shelbyv-portfolio/static/media/runbuddy.2f76ce255d72ac2c5c98.png",
+    "static/media/vFriend.png": "/shelbyv-portfolio/static/media/vFriend.20af1a3493511fc9ee4c.png",
+    "static/media/backend-note.png": "/shelbyv-portfolio/static/media/backend-note.46660c5657e6b1c192ad.png",
+    "static/media/fanpage.jpeg": "/shelbyv-portfolio/static/media/fanpage.c41e38fefc1db45d1458.jpeg",
+    "static/media/eat.png": "/shelbyv-portfolio/static/media/eat.139dc060c92d49a0993c.png",
+    "static/media/background.jpeg": "/shelbyv-portfolio/static/media/background.5058d1fac6e6b47cab18.jpeg",
+    "index.html": "/shelbyv-portfolio/index.html",
+    "main.e7b2b327.css.map": "/shelbyv-portfolio/static/css/main.e7b2b327.css.map",
+    "main.aa32864c.js.map": "/shelbyv-portfolio/static/js/main.aa32864c.js.map",
+    "787.95a76ca5.chunk.js.map": "/shelbyv-portfolio/static/js/787.95a76ca5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7b2b327.css",
+    "static/js/main.aa32864c.js"
+  ]
+}
