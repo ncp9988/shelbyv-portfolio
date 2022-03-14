@@ -32,8 +32,8 @@ You may also see any lint errors in the console.
 
 
   #### GitHub
-  [Developer Profile](https://github.com/ncp9988)
-  [Deploy](https://ncp9988.github.io/shelbyv-portfolio/)
+  *[Developer Profile](https://github.com/ncp9988)
+  *[Deploy](https://ncp9988.github.io/shelbyv-portfolio/)
   
 
   #### Email
@@ -42,7 +42,7 @@ You may also see any lint errors in the console.
 
 
   ### Screenshot
-  ![Screenshot]()
+  ![Screenshot](https://github.com/ncp9988/shelbyv-portfolio/blob/main/src/assets/my-photo/portfolio.png)
   
   
 
