@@ -58,7 +58,8 @@ function Project() {
                         </a>
                     </div>
                     <div class="pic">
-                        <h3>vFriend</h3>
+                        <h3><a href="https://peaceful-river-67746.herokuapp.com/">vFriend</a></h3>
+
                     </div>
                 </div>
                 <div class="container1">
@@ -88,7 +89,6 @@ function Project() {
                         </a>
                     </div>
                     <div class="pic">
-                        {/* <h3>Freddys-Fresh-Product </h3> */}
                         <h3><a href="https://freddy-fress.herokuapp.com/">Freddys-Fresh-Product</a></h3>
 
 
