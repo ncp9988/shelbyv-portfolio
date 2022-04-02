@@ -5,7 +5,8 @@ import codeRefactor from "../../assets/projects/digital-marketing-meeting.jpg";
 import eatApp from "../../assets/projects/eat.png";
 import vFriend from "../../assets/projects/vFriend.png";
 import foodFestival from "../../assets/projects/foodFestival.png";
-import note from "../../assets/projects/backend-note.png"
+import note from "../../assets/projects/backend-note.png";
+import freddyfress from "../../assets/projects/freddyfress.png"
 
 function Project() {
     return (
@@ -67,7 +68,7 @@ function Project() {
                         </a>
                     </div>
                     <div class="pic">
-                        <h3>vFriend</h3>
+                        <h3>Food-Festival</h3>
                     </div>
                 </div>
                 <div class="container1">
@@ -77,7 +78,20 @@ function Project() {
                         </a>
                     </div>
                     <div class="pic">
-                        <h3>vFriend</h3>
+                        <h3>Note-Taker</h3>
+                    </div>
+                </div>
+                <div class="container1">
+                    <div class="imgcontainer">
+                        <a href="https://github.com/Arcanaut/Freddys-Fresh-Produce.git">
+                            <img class="photo" src={freddyfress} alt="backend-noteTaker" />
+                        </a>
+                    </div>
+                    <div class="pic">
+                        {/* <h3>Freddys-Fresh-Product </h3> */}
+                        <h3><a href="https://freddy-fress.herokuapp.com/">Freddys-Fresh-Product</a></h3>
+
+
                     </div>
                 </div>
 
